@@ -8,7 +8,9 @@ import android.widget.Button;
 
 /**
  * FinancialCalculator class is the home screen of the application. This class
- * displays buttons that will take you to property financial calculators.
+ * displays buttons that will take you to property financial calculators. These
+ * calculators are specifically designed to help with the analysis of investment
+ * properties.
  */
 
 public class FinancialCalculator extends Activity implements View.OnClickListener
