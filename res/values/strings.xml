@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinancialCalculator</string>
+    <string name="MonthlyCalculation">MonthlyPaymentCalculation</string>
+    <string name="PropertyAnalysis">PropertyAnalysis</string>
+</resources>

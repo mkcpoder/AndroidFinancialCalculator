@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Financial Investment Calculator"
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Input Value of Property"
+    />
+<EditText
+    android:id="@+id/value1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal|numberSigned" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Input Interest Rate"
+    />
+<EditText
+    android:id="@+id/value2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal|numberSigned" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Input Term"
+    />
+<EditText
+    android:id="@+id/value3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number" />
+<TextView
+android:id="@+id/txtResult"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignRight="@+id/txtNumber2"
+android:layout_alignTop="@+id/btnAdd"
+android:textAppearance="?android:attr/textAppearanceMedium" />
+<Button
+    android:id="@+id/buttonCalculate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Calculate"
+    android:onClick="button_id" />
+</LinearLayout>
+
+
